@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background:url(../image/timg.jpg)
+}
+.loginBlock{
+	font-family: 'Oswald', sans-serif;
+	margin-top: 10%;
+	background-color: rgba(64,20,112,.5);
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.inputBlock{
+	padding-bottom: 40px;
+}
+.button{
+	margin-bottom: 20px;
+	background-color: #D9BC76;
+	border-color: #120E0D;
+	transition-duration:1s;
+}
+.button:hover{
+	margin-bottom: 20px;
+	background-color:#503F16;
+	border-color: #120E0D;
+}
+
+.slogan{
+	margin-top: 100px;
+}
+
+.lets{
+	font-weight: 200;
+    font-size: 175px;
+    margin-top: -1px;
+    color: #FFF;
+}
+.chat{
+	font-size: 265px;
+	color: #FFF;
+}
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+}

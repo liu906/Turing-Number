@@ -1,0 +1,49 @@
+*{
+	padding:0;
+	margin:0;
+}
+.header{
+	height:465px;
+	width: 100%;
+	background-image: url('../image/1.gif');
+}
+.searchinput{
+	width: 200px;
+}
+.title{
+	color: #fff;
+	height: 300px;
+}
+.title-h1{
+	padding-top: 150px;
+
+}
+.bar{
+	width: 1140px;
+	margin-top:60px; 
+	background-color: #fff;
+	height:285px;
+	box-shadow: 0 0 4px;
+}
+.photo{
+	width: 196px;
+	height:196px;
+	margin-top:24px;
+	margin-left: 20px;
+
+}
+.presonal{
+	margin-left: 20px;
+	margin-top: 24px;
+}
+.name{
+	font-size: 30px;
+}
+.institution{
+	font-size: 24px;
+	color:#0080ff;
+}
+.turing-number{
+	font-size: 20px;
+	color: #1e1f1f；
+}

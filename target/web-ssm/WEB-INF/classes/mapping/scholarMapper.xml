@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.heitian.ssm.dao.scholarMapper" >
+  <resultMap id="BaseResultMap" type="com.heitian.ssm.model.scholar" >
+    <result column="SID" property="sid" jdbcType="VARCHAR" />
+    <result column="SName" property="sname" jdbcType="VARCHAR" />
+    <result column="Coordinate" property="coordinate" jdbcType="VARCHAR" />
+    <result column="Photo" property="photo" jdbcType="VARCHAR" />
+    <result column="Experience" property="experience" jdbcType="VARCHAR" />
+    <result column="Tnumber_min" property="tnumberMin" jdbcType="INTEGER" />
+    <result column="Tbetweenness" property="tbetweenness" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.heitian.ssm.model.scholar" extends="BaseResultMap" >
+    <result column="Institution" property="institution" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+   SID, SName, Coordinate, Photo, Experience, Tnumber_min, Tbetweenness
+  </sql>
+  <sql id="Blob_Column_List" >
+    Institution
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.heitian.ssm.model.scholarExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    'true' as QUERYID,
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from scholar
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.heitian.ssm.model.scholarExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    'true' as QUERYID,
+    <include refid="Base_Column_List" />
+    from scholar
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.heitian.ssm.model.scholarExample" >
+    delete from scholar
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.heitian.ssm.model.scholar" >
+    insert into scholar (﻿SID, SName, Coordinate, 
+      Photo, Experience, Tnumber_min, 
+      Tbetweenness, Institution)
+    values (#{sid,jdbcType=VARCHAR}, #{sname,jdbcType=VARCHAR}, #{coordinate,jdbcType=VARCHAR},
+      #{photo,jdbcType=VARCHAR}, #{experience,jdbcType=VARCHAR}, #{tnumberMin,jdbcType=INTEGER}, 
+      #{tbetweenness,jdbcType=INTEGER}, #{institution,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.heitian.ssm.model.scholar" >
+    insert into scholar
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="sid != null" >
+        ﻿SID,
+      </if>
+      <if test="sname != null" >
+        SName,
+      </if>
+      <if test="coordinate != null" >
+        Coordinate,
+      </if>
+      <if test="photo != null" >
+        Photo,
+      </if>
+      <if test="experience != null" >
+        Experience,
+      </if>
+      <if test="tnumberMin != null" >
+        Tnumber_min,
+      </if>
+      <if test="tbetweenness != null" >
+        Tbetweenness,
+      </if>
+      <if test="institution != null" >
+        Institution,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="sid != null" >
+        #{﻿sid,jdbcType=VARCHAR},
+      </if>
+      <if test="sname != null" >
+        #{sname,jdbcType=VARCHAR},
+      </if>
+      <if test="coordinate != null" >
+        #{coordinate,jdbcType=VARCHAR},
+      </if>
+      <if test="photo != null" >
+        #{photo,jdbcType=VARCHAR},
+      </if>
+      <if test="experience != null" >
+        #{experience,jdbcType=VARCHAR},
+      </if>
+      <if test="tnumberMin != null" >
+        #{tnumberMin,jdbcType=INTEGER},
+      </if>
+      <if test="tbetweenness != null" >
+        #{tbetweenness,jdbcType=INTEGER},
+      </if>
+      <if test="institution != null" >
+        #{institution,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.heitian.ssm.model.scholarExample" resultType="java.lang.Integer" >
+    select count(*) from scholar
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update scholar
+    <set >
+      <if test="record.sid != null" >
+        ﻿SID = #{record.sid,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sname != null" >
+        SName = #{record.sname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.coordinate != null" >
+        Coordinate = #{record.coordinate,jdbcType=VARCHAR},
+      </if>
+      <if test="record.photo != null" >
+        Photo = #{record.photo,jdbcType=VARCHAR},
+      </if>
+      <if test="record.experience != null" >
+        Experience = #{record.experience,jdbcType=VARCHAR},
+      </if>
+      <if test="record.tnumberMin != null" >
+        Tnumber_min = #{record.tnumberMin,jdbcType=INTEGER},
+      </if>
+      <if test="record.tbetweenness != null" >
+        Tbetweenness = #{record.tbetweenness,jdbcType=INTEGER},
+      </if>
+      <if test="record.institution != null" >
+        Institution = #{record.institution,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update scholar
+    set ﻿SID = #{record.sid,jdbcType=VARCHAR},
+      SName = #{record.sname,jdbcType=VARCHAR},
+      Coordinate = #{record.coordinate,jdbcType=VARCHAR},
+      Photo = #{record.photo,jdbcType=VARCHAR},
+      Experience = #{record.experience,jdbcType=VARCHAR},
+      Tnumber_min = #{record.tnumberMin,jdbcType=INTEGER},
+      Tbetweenness = #{record.tbetweenness,jdbcType=INTEGER},
+      Institution = #{record.institution,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update scholar
+    set ﻿SID = #{record.﻿sid,jdbcType=VARCHAR},
+      SName = #{record.sname,jdbcType=VARCHAR},
+      Coordinate = #{record.coordinate,jdbcType=VARCHAR},
+      Photo = #{record.photo,jdbcType=VARCHAR},
+      Experience = #{record.experience,jdbcType=VARCHAR},
+      Tnumber_min = #{record.tnumberMin,jdbcType=INTEGER},
+      Tbetweenness = #{record.tbetweenness,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>

@@ -1,0 +1,47 @@
+.Lnav{
+	background-color: #4A92C9;
+	width: 100%;
+	height: 80px;
+	padding-top:20px; 
+}
+.resultAndTime{
+	color: #a9a9a9;
+	font-size: 10px;
+}
+.resultInfo{
+	background-color: #DFDFDF;
+	height: 50px;
+	line-height: 50px;
+}
+.photo{
+	box-shadow: 5px 5px 10px #474747;
+	border-width: 1px;
+	height: 120px;
+	width: 120px;
+	margin:10px 20px 10px 5px;
+}
+.personal{
+	box-shadow: 2px 2px 5px 5px #D9BC76;
+}
+.subject{
+	color: #4197FF;
+}
+.local{
+	color: #616161;
+}
+.seachList{
+	margin-top: 20px;
+}
+.btn-primary{
+	background-color:#D9BC76;
+	color:#120E0D;	
+	
+}
+.row{
+	color:#D9BC76;
+	
+}
+.selectionbar{
+	background-color:#000000;
+	
+}

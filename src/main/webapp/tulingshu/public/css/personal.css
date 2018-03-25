@@ -1,0 +1,13 @@
+.person{
+	margin-top: 20px;
+	border-bottom: 1px solid #bbb;
+	padding-bottom: 10px;
+}
+.mediaBody{
+	padding-left: 30px;
+}
+.photos{
+	box-shadow: 0px 0px 5px #C3CDD4;
+	border-radius:4px;
+
+}

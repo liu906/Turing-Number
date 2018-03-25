@@ -1,0 +1,290 @@
+<?xml version="1.0" standalone="no"?>
+
+<svg width="405" height="90"  viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+<p> 666</p>
+<g transform="translate(50,0)">
+<text x="-50" y="-7" style="font-size: 10px; font-family: Arial, Helvetica;">
+null</text> 
+<g class="y axis" transform="translate(0,0)" style="font-size: 10px; font-family: Arial, Helvetica;">
+<g class="tick" transform="translate(0,149)" style="opacity: 1;">
+<line x2="-6" y2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".32em" x="-9" y="0" style="text-anchor: end;">
+0</text>
+</g>
+<g class="tick" transform="translate(0,127.71428571428572)" style="opacity: 1;">
+<line x2="-6" y2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".32em" x="-9" y="0" style="text-anchor: end;">
+1</text>
+</g>
+<g class="tick" transform="translate(0,106.42857142857143)" style="opacity: 1;">
+<line x2="-6" y2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".32em" x="-9" y="0" style="text-anchor: end;">
+2</text>
+</g>
+<g class="tick" transform="translate(0,85.14285714285714)" style="opacity: 1;">
+<line x2="-6" y2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".32em" x="-9" y="0" style="text-anchor: end;">
+3</text>
+</g>
+<g class="tick" transform="translate(0,63.85714285714286)" style="opacity: 1;">
+<line x2="-6" y2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".32em" x="-9" y="0" style="text-anchor: end;">
+4</text>
+</g>
+<g class="tick" transform="translate(0,42.57142857142857)" style="opacity: 1;">
+<line x2="-6" y2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".32em" x="-9" y="0" style="text-anchor: end;">
+5</text>
+</g>
+<g class="tick" transform="translate(0,21.285714285714292)" style="opacity: 1;">
+<line x2="-6" y2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".32em" x="-9" y="0" style="text-anchor: end;">
+6</text>
+</g>
+<g class="tick" transform="translate(0,0)" style="opacity: 1;">
+<line x2="-6" y2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".32em" x="-9" y="0" style="text-anchor: end;">
+7</text>
+</g>
+<path class="domain" d="M-6,0H0V149H-6" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</path>
+</g>
+<rect transform="translate(0,0)" class="bar" x="11" width="26" y="149" height="0" style="fill: rgb(191, 105, 105);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="37" width="26" y="149" height="0" style="fill: rgb(191, 123, 105);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="63" width="26" y="149" height="0" style="fill: rgb(191, 142, 105);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="89" width="26" y="149" height="0" style="fill: rgb(191, 160, 105);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="115" width="26" y="149" height="0" style="fill: rgb(191, 179, 105);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="141" width="26" y="149" height="0" style="fill: rgb(185, 191, 105);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="167" width="26" y="0" height="149" style="fill: rgb(166, 191, 105);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="193" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(148, 191, 105);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="219" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(130, 191, 105);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="245" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(111, 191, 105);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="271" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(105, 191, 117);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="297" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(105, 191, 136);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="323" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(105, 191, 154);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="349" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(105, 191, 172);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="375" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(105, 191, 191);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="401" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(105, 172, 191);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="427" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(105, 154, 191);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="453" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(105, 136, 191);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="479" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(105, 117, 191);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="505" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(111, 105, 191);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="531" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(130, 105, 191);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="557" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(148, 105, 191);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="583" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(166, 105, 191);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="609" width="26" y="63.85714285714286" height="85.14285714285714" style="fill: rgb(185, 105, 191);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="635" width="26" y="85.14285714285714" height="63.85714285714286" style="fill: rgb(191, 105, 179);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="661" width="26" y="85.14285714285714" height="63.85714285714286" style="fill: rgb(191, 105, 160);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="687" width="26" y="85.14285714285714" height="63.85714285714286" style="fill: rgb(191, 105, 142);">
+</rect>
+<rect transform="translate(0,0)" class="bar" x="713" width="26" y="85.14285714285714" height="63.85714285714286" style="fill: rgb(191, 105, 123);">
+</rect>
+</g>
+<g class="x axis" transform="translate(50,149)" style="font-size: 10px; font-family: Arial, Helvetica;">
+<g class="tick" transform="translate(24,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1971</text>
+</g>
+<g class="tick" transform="translate(50,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1972</text>
+</g>
+<g class="tick" transform="translate(76,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1973</text>
+</g>
+<g class="tick" transform="translate(102,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1974</text>
+</g>
+<g class="tick" transform="translate(128,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1975</text>
+</g>
+<g class="tick" transform="translate(154,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1976</text>
+</g>
+<g class="tick" transform="translate(180,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1977</text>
+</g>
+<g class="tick" transform="translate(206,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1978</text>
+</g>
+<g class="tick" transform="translate(232,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1979</text>
+</g>
+<g class="tick" transform="translate(258,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1980</text>
+</g>
+<g class="tick" transform="translate(284,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1981</text>
+</g>
+<g class="tick" transform="translate(310,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1982</text>
+</g>
+<g class="tick" transform="translate(336,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1983</text>
+</g>
+<g class="tick" transform="translate(362,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1984</text>
+</g>
+<g class="tick" transform="translate(388,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1985</text>
+</g>
+<g class="tick" transform="translate(414,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1986</text>
+</g>
+<g class="tick" transform="translate(440,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1987</text>
+</g>
+<g class="tick" transform="translate(466,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1988</text>
+</g>
+<g class="tick" transform="translate(492,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1989</text>
+</g>
+<g class="tick" transform="translate(518,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1990</text>
+</g>
+<g class="tick" transform="translate(544,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1991</text>
+</g>
+<g class="tick" transform="translate(570,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1992</text>
+</g>
+<g class="tick" transform="translate(596,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1993</text>
+</g>
+<g class="tick" transform="translate(622,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1994</text>
+</g>
+<g class="tick" transform="translate(648,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1995</text>
+</g>
+<g class="tick" transform="translate(674,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1996</text>
+</g>
+<g class="tick" transform="translate(700,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1997</text>
+</g>
+<g class="tick" transform="translate(726,0)" style="opacity: 1;">
+<line y2="6" x2="0" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</line>
+<text dy=".71em" y="9" x="0" style="text-anchor: middle;">
+1998</text>
+</g>
+<path class="domain" d="M0,6V0H749V6" style="shape-rendering: crispEdges; fill: none; stroke: rgb(204, 204, 204);">
+</path>
+</g>
+
+</svg>
